@@ -20,4 +20,15 @@ body{
     height: 150px;
     margin-left: 133px;
     border-radius: 50%;
+    z-index: 1;
+}
+
+#profile a {
+    color: var(--purple);
+    margin-left: 130px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }
