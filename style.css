@@ -32,3 +32,13 @@ body{
     font-weight: 300;
     line-height: normal;
 }
+
+ul {
+    color: var(--purple);
+    margin-left: 150px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
