@@ -19,6 +19,7 @@ body{
     height: 600px;
     flex-shrink: 0;
     margin: auto;
+    margin-top: 30px;
 }
 
 #profile img {
@@ -27,6 +28,10 @@ body{
     margin-left: 133px;
     border-radius: 50%;
     z-index: 1;
+}
+
+#elipse {
+    z-index: 0;
 }
 
 #profile a {
@@ -77,7 +82,7 @@ ul li a {
     margin-top: 60px;
 }
 
-#icons p {
+#icons a {
     display: inline-block;
     width: 24px;
     height: 24px;
