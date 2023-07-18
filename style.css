@@ -1,14 +1,23 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 :root {
     --body-bg-color: #FAF7FD;
     --purple: #BB99DD;
-  }
+}
 
-#container {
+body{
     background-color: var(--body-bg-color);
+} 
+
+#container{
+    width: 414px;
+    height: 600px;
+    flex-shrink: 0;
+    border: 1px solid red;
+    margin: auto;
+}
+
+#profile img {
+    width: 150px;
+    height: 150px;
+    margin-left: 133px;
+    border-radius: 50%;
 }
