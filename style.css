@@ -24,14 +24,16 @@ body{
 }
 
 #elipse{
-    margin-left: 100px;
+    margin-left: 99px;
     position: absolute;
     z-index: 1;
+    bottom: 449px;
+    left: 204px;
 }
 
 #profile img{
-    width: 213px;
-    height: 213px;
+    width: 202px;
+    height: 202px;
     border-radius: 50%;
     margin-left: 105px;
 }
