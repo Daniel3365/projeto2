@@ -1,10 +1,10 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root {
+:root{
     --body-bg-color: #FAF7FD;
     --purple: #BB99DD;
 }
@@ -22,21 +22,26 @@ body{
     margin-top: 30px;
 }
 
-#profile img {
-    width: 150px;
-    height: 150px;
-    margin-left: 133px;
+#elipse{
+    width: 213px;
+    height: 213px;
+    margin-left: 100px;
     border-radius: 50%;
+    position: absolute;
     z-index: 1;
 }
 
-#elipse {
-    z-index: 0;
+#profile img{
+    width: 213px;
+    height: 213px;
+    border-radius: 50%;
+    margin-left: 100px;
 }
 
-#profile a {
+#link{
     color: var(--purple);
     margin-left: 130px;
+    margin-top: 10px;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -46,7 +51,8 @@ body{
 }
 
 
-ul {
+ul{
+    border: 1px solid red;
     color: var(--purple);
     list-style: none;
     display: flex;
@@ -58,7 +64,7 @@ ul {
     line-height: normal;
 }
 
-ul li a {
+ul li a{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,13 +82,13 @@ ul li a {
 }
 
 #icons{
-    /*border: 1px solid blue;*/
+    border: 1px solid blue;
     width: 300px;
     margin-left: 57px;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
-#icons a {
+#icons a{
     display: inline-block;
     width: 24px;
     height: 24px;
