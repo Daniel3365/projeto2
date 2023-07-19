@@ -25,33 +25,41 @@ body{
 
 #elipse{
     display: block;
-    border: 1px solid blue;
-    width: 215px;
-    margin-left: 100px;
+    /*border: 1px solid black;*/
+    margin-left: 99px;
+    margin-right: 98px;
     position: relative;
 }
 
-#profile img{
-    border: 1px solid blue;
-    width: 202px;
-    height: 202px;
-    border-radius: 50%;
-    margin-left: 106px;
+#profile{
+    /*border: 1px solid blue;*/
+    margin-left: 105px;
+    margin-right: 105px;
     position: absolute;
     z-index: 1;
-    bottom: 461px;
+    top: 37px;
 }
 
+#profile img{
+    width: 202px;
+    height: 201px;
+    border-radius: 50%;
+}
+
+
 #social{
-    color: var(--purple);
     margin: 10px 130px;
+}
+
+#social a{
+    /*border: 1px solid red;*/
+    color: var(--purple);
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
     text-decoration: none;
-    top: 10px;
 }
 
 
@@ -62,8 +70,8 @@ ul{
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 20px;
     margin-left: 45px;
+    margin-right: 41px;
     gap: 16px;
     line-height: normal;
 }
