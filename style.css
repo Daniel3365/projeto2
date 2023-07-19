@@ -24,29 +24,34 @@ body{
 }
 
 #elipse{
-    margin-left: 99px;
-    position: absolute;
-    z-index: 1;
-    bottom: 449px;
-    left: 204px;
+    display: block;
+    border: 1px solid blue;
+    width: 215px;
+    margin-left: 100px;
+    position: relative;
 }
 
 #profile img{
+    border: 1px solid blue;
     width: 202px;
     height: 202px;
     border-radius: 50%;
-    margin-left: 105px;
+    margin-left: 106px;
+    position: absolute;
+    z-index: 1;
+    bottom: 461px;
 }
 
-#profile a{
+#social{
     color: var(--purple);
-    margin-left: 133px;
+    margin: 10px 130px;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
     text-decoration: none;
+    top: 10px;
 }
 
 
